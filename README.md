@@ -1,4 +1,4 @@
-![Eisenhower: An application to classify tasks in Swift]()
+![Eisenhower: An application to classify tasks in Swift](https://github.com/heitzls/eisenhower-project/blob/master/logoGit.png)
 
 ![CocoaPods](https://img.shields.io/cocoapods/v/AFNetworking.svg)
 ![iOS](https://img.shields.io/badge/iOS-11.0-green.svg)
@@ -13,11 +13,9 @@ He was the 34th President of the United States of America, who would have once s
 - [Dependency manager](#dependency-manager)
 - [Documentation](#documentation)
 - [Requirements](#requirements)
+- [Architecture](#architecture)
 - [Installation](#installation)
-- [Usage](#usage)
-- [FAQ](#faq)
 - [Credits](#credits)
-- [License](#license)
 
 
 ## Features
@@ -55,12 +53,13 @@ We decided to use [Jazzy](https://github.com/realm/jazzy) for the documentation 
 - Swift 4
 - Portrait mode only
 
+## Architecture
+
+We decided to use the [MVVM architecture](https://msdn.microsoft.com/en-us/library/hh848246.aspx). MVVM is an architecture and a design method used in software engineering.
+Appeared in 2004, MVVM is originally from Microsoft and adapted for application development. This method allows, like the model MVC (model-view-controller), to separate the view of logic and access to data by emphasizing the principles of binding and event.
+
 ## Installation
-
-## Usage
-
-## FAQ
 
 ## Credits
 
-## License
+
