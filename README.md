@@ -60,48 +60,6 @@ Appeared in 2004, MVVM is originally from Microsoft and adapted for application 
 
 ## Installation
 
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-> CocoaPods 1.1+ is required to build Alamofire 4.0+.
-
-To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
-use_frameworks!
-
-target '<Your Target Name>' do
-    pod 'Alamofire', '~> 4.6'
-end
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
-
-### Swift Package Manager
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but Alamofire does support its use on supported platforms. 
-
-Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
-
-#### Swift 4
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.0.0")
-]
-```
-
 ## Credits
 
 By [Serge Heitzler](https://github.com/heitzls), [Nicolas Ades](https://github.com/Idlic) and [Astrid Mancel](https://github.com/astriid)
