@@ -14,7 +14,6 @@ He was the 34th President of the United States of America, who would have once s
 - [Documentation](#documentation)
 - [Requirements](#requirements)
 - [Architecture](#architecture)
-- [Installation](#installation)
 - [Credits](#credits)
 
 
@@ -55,7 +54,6 @@ We decided to use [Jazzy](https://github.com/realm/jazzy) for the documentation 
 We decided to use the [MVVM architecture](https://msdn.microsoft.com/en-us/library/hh848246.aspx). MVVM is an architecture and a design method used in software engineering.
 Appeared in 2004, MVVM is originally from Microsoft and adapted for application development. This method allows, like the model MVC (model-view-controller), to separate the view of logic and access to data by emphasizing the principles of binding and event.
 
-## Installation
 
 ## Credits
 
